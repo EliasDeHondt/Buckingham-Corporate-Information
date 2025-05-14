@@ -103,6 +103,17 @@
     margin-bottom: 1rem;
 }
 
+.article-section-text a {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.article-section-text a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
 .article-section-list {
     list-style: none;
     padding-left: 20px;
